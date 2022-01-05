@@ -48,33 +48,23 @@
 	align-items: flex-end;
 	text-decoration: none;
 	list-style-type: none;
-	margin: 18px 0 0 ;
+	margin: 18px 0 0;
 	padding: 0;
 }
 
-.header__lang-link_ru {
+.header__item:first-child {
+	text-decoration-line: underline;
+}
+
+.header__item {
 	color: #FFFFFF;
 	font-size: 24px;
 	line-height: 1.17;
 	margin-right: 18px;
-	text-decoration-line: underline;
-}
-
-.header__lang-link_en {
-	color: #FFFFFF;
-	font-size: 24px;
-	line-height: 1.17;
 }
 
 @media screen and (max-width: 768px) {
-	.header__lang-link_ru {
-		 font-size: 18px;
-		 line-height: 1.11;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.header__lang-link_en {
+	.header__item {
 		 font-size: 18px;
 		 line-height: 1.11;
 	}
@@ -369,10 +359,6 @@
 	.place:last-of-type .place__paragraph {
 		 margin: 0 auto;
 	}
-}
-
-.place:first-of-type {
-	margin: 0;
 }
 
 .place__title {
