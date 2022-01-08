@@ -1,0 +1,17 @@
+.header__item:first-child {
+	text-decoration-line: underline;
+}
+
+.header__item {
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 1.17;
+	margin-right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	.header__item {
+		 font-size: 18px;
+		 line-height: 1.11;
+	}
+}
