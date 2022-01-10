@@ -1,7 +1,3 @@
-.header__item:first-child {
-	text-decoration-line: underline;
-}
-
 .header__item {
 	color: #FFFFFF;
 	font-size: 24px;
